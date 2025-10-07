@@ -6,10 +6,10 @@ from playsound import playsound
 from twilio.rest import Client
 
 # Twilio configuration
-ACCOUNT_SID = 'AC4331b3eeac3ee52a3ca6cf6f02cc7d2e'
-AUTH_TOKEN = '6cbcd87788d0704317e3327234c84bea'
-TWILIO_PHONE_NUMBER = '+12183570669'
-RECIPIENT_PHONE_NUMBER = '+919241372883'
+ACCOUNT_SID = 'twilio sid'
+AUTH_TOKEN = 'twilio token'
+TWILIO_PHONE_NUMBER = 'twilio number'
+RECIPIENT_PHONE_NUMBER = 'your number'
 
 def send_sms_via_twilio(message):
     client = Client(ACCOUNT_SID, AUTH_TOKEN)
@@ -120,3 +120,4 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
+
