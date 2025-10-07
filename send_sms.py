@@ -9,9 +9,9 @@ from email.mime.multipart import MIMEMultipart
 # Configuration
 SMTP_SERVER = "smtp.gmail.com"  # Gmail SMTP server
 SMTP_PORT = 587  # Gmail SMTP port
-EMAIL_ADDRESS = "yashwanthgj7@gmail.com"  # Your email address
-EMAIL_PASSWORD = "hdsc imkk qqdl pyeb"  # Gmail app password (if using 2FA)
-PHONE_NUMBER = "9241372883"  # Recipient's phone number
+EMAIL_ADDRESS = "your mail"  # Your email address
+EMAIL_PASSWORD = "google app password"  # Gmail app password (if using 2FA)
+PHONE_NUMBER = "your number"  # Recipient's phone number
 CARRIER_GATEWAY = "vtext.com"  # Carrier's SMS gateway domain (Verizon example)
 SMS_GATEWAY = f"{PHONE_NUMBER}@{CARRIER_GATEWAY}"  # Complete SMS gateway address
 
@@ -126,3 +126,4 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
+
