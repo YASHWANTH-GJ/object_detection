@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.DEBUG)
 ACCOUNT_SID = 'AC4331b3eeac3ee52a3ca6cf6f02cc7d2e'
 AUTH_TOKEN = '6cbcd87788d0704317e3327234c84bea'
 TWILIO_PHONE_NUMBER = '+12183570669'
-RECIPIENT_PHONE_NUMBER = '+919740388782'
+RECIPIENT_PHONE_NUMBER = '+919241372883'
 
 # Email configuration
 EMAIL_ADDRESS = 'yashwanthgj7@gmail.com'
@@ -146,3 +146,4 @@ while True:
 
 cam.release()
 cv2.destroyAllWindows()
+
